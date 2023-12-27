@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: int_vendas__pedido_itens
+    description: Essa é uma transformação intermediária para a fatos_vendas.
+    columns:
+      - name: sk_pedido_item
+        description: Completar documentação
+        tests:
+          - unique
+          - not_null
